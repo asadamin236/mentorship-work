@@ -7,7 +7,7 @@
   <style>
     div {
       width: 300px;
-      height: 430px;
+      height: 600px;
       margin: auto;
       border: 3px solid pink;
       padding: 20px;
@@ -40,7 +40,24 @@
       <input type="email" id="email" name="email" placeholder="Enter Your Email"/>
       <label for="contactno">Contact No:</label>
       <input type="text" id="contactno" placeholder="Enter Your Contact No"/>
+      <!-- <selection>
+        <label for="message">Message:</label>
+        <option value="1">Web Development</option>
+        <option value="2">Mobile Development</option>
+        <option value="3">UI/UX Design</option>
+      </selection> -->
+
+      <lable for="gender">Gender</lable>
+
+      <label for="gender">
+      <input type="radio" id="male" name="gender" value="male">Male</label>
+      <label for="gender">
+      <input type="radio" id="female" name="gender" value="female">Female</label>
       <label for="message">Message:</label>
+      <label for="languages">Languages:</label>
+      <label for="language"><input type="checkbox" id="html" name="html"/>HTML</label>
+      <label for="language"><input type="checkbox" id="css" name="css"/>CSS</label>
+      <label for="language"><input type="checkbox" id="js" name="js"/>JavaScript</label>
       <textarea id="message" name="message" placeholder="Enter Your Message"></textarea>
       <button type="submit">Submit</button>
 
