@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(206, 124, 124);
+  margin: 50px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.parent{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(206, 124, 124); 
+}
+
+.child {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(124, 124, 124);
+}
+button {
+  background-color: rgb(124, 124, 124);
+  color: white;
+  border: 2px solid lightblue;
+  padding: 10px 20px;
+}
+button:hover {
+  background-color: lightblue;
+  color: black;
+}

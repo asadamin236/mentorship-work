@@ -1,0 +1,16 @@
+div {
+  color: rgb(243, 234, 234);
+  background-color:rgb(190, 152, 104);
+  width: 400px;
+  border: 2px solid rgb(243, 234, 234);
+}
+#div1 {
+  background-color: rgb(247, 109, 17);
+  color: black;
+  width: 400px;
+  border: 2px solid rgb(247, 109, 17);
+}
+.heading {
+  color:black;
+  background-color: rgb(221, 176, 146);
+}

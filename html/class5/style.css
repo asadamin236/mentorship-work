@@ -1,0 +1,22 @@
+.heading1 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(236, 48, 48);
+  border: 2px solid black;
+}
+.heading2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(224, 24, 24);
+  border: 2px solid rgb(121, 40, 40);
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%)
+}
+.heading3 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(224, 24, 24);
+  border: 2px solid rgb(97, 46, 192);
+}
