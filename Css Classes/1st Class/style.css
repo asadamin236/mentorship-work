@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(206, 124, 124);
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(206, 124, 124);
+  padding: 10px;
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap: 10px
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+#section1 {
+  display: flex;
+  gap: 50px
+}
+p{
+  width: 600px;
+  height: 500px;
+  background-color: rgb(185, 102, 102);
+  color:black
+}
+img {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+}
+.h1{
+  background-color: rgb(185, 102, 102);
+  color: black;
+  width: 600px;
+}
